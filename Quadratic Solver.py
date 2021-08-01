@@ -63,8 +63,6 @@ def factor():
         two = two.replace(')','')
         # Same thing - A . means that it is a decimal number - which we don't want. 
         if '.' not in one and '.' not in two:
-            one = int(one)
-            two = int(two)
             aone = str(abs(int(one)))
             atwo = str(abs(int(two)))
             if one != two:
