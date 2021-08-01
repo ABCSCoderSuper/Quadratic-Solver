@@ -4,7 +4,7 @@ def main():
     global a
     global b
     global c
-    print("Quadratic Cracker")
+    print("Quadratic Solver")
     print("The quadratic equation: ax^2 + bx + c = 0")
     print("If you see 'j' in solutions, they mean 'i', or 'imaginary nubmer'.")
     print("To find the common factor of the equation, type '1'.")
